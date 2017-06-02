@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_action_add"
+        android:icon="@mipmap/actionbar_add_icon"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/id_action_delete"
+        android:icon="@mipmap/actionbar_delete_icon"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/id_action_toggle_orientation"
+        android:orderInCategory="100"
+        android:title="Toggle Orientation"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_action_list_view"
+        android:orderInCategory="100"
+        android:title="ListView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_action_grid_view"
+        android:orderInCategory="100"
+        android:title="GirdView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_action_staggered_grid_view"
+        android:orderInCategory="100"
+        android:title="StaggeredGridView"
+        app:showAsAction="never"/>
+</menu>
